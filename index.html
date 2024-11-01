@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórum Exemplo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Fórum Exemplo</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Tópicos</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="novo-topico">
+            <h2>Criar Novo Tópico</h2>
+            <form action="#" method="post">
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Criar Tópico</button>
+            </form>
+        </section>
+
+        <section class="topicos">
+            <h2>Tópicos Recentes</h2>
+            <ul>
+                <li><a href="#">Como aprender programação?</a> - por Usuário1</li>
+                <li><a href="#">Dicas de viagem para 2024</a> - por Usuário2</li>
+                <li><a href="#">Melhores práticas de design
